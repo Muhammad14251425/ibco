@@ -20,18 +20,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <ThemeProvider
+      {/* <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-          >
+          > */}
         <Navbar />
         <div className="bg-white">
         {children}
         </div>
         <Footer />
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
         </body>
     </html>
   );

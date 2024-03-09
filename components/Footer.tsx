@@ -100,7 +100,7 @@ const Footer = () => {
                             <h2 >...and receive <span className="font-bold">$20 coupon for first shopping</span></h2>
                         </div>
                         <div>
-                            <input type="email" placeholder="Enter Your email address" className="rounded-l-full pl-8 py-2" />
+                            <input type="email" placeholder="Enter Your email address" className="rounded-l-full pl-8 py-2 outline-none bg-white text-black decoration-black" />
                             <button className="rounded-r-full px-6 bg-gray-800 text-white py-2">SignUp</button>
                         </div>
                     </div>
