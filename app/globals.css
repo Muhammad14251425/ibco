@@ -7,7 +7,7 @@
     
 
     --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
+  
     --ring: 222.2 84% 4.9%;
  
     --radius: 0.5rem;
@@ -15,14 +15,7 @@
  
 }
  
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
+
 @layer components {
   .navbar {
     @apply font-light text-sm py-3 border-b hover:bg-gray-100 px-5
