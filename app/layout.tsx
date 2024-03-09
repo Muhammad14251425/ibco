@@ -27,7 +27,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
         <Navbar />
-        <div className="">
+        <div className="bg-white">
         {children}
         </div>
         <Footer />
