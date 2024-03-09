@@ -326,7 +326,7 @@ const Feature = () => {
                 </Carousel>
 
             </div>
-            <div className="mb-6">
+            <div className="mb-6 bg-white">
                 <div className="h-[1px] w-full bg-gray-200 mt-12" />
             </div>
 

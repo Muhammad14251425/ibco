@@ -91,26 +91,26 @@ const Navbar = () => {
 
             </div>
 
-            <div className="thh:flex hidden border-b pb-1 w-full">
+            <div className="thh:flex hidden bg-white border-b pb-1 w-full">
                 <div className="thh:flex justify-between mx-6 xl:mx-auto w-full max-w-7xl pt-2">
-                    <h2 className="text-sm tracking-tighter">Welcome to Worldwide Electronics Store</h2>
+                    <h2 className="text-sm tracking-tighter text-black">Welcome to Worldwide Electronics Store</h2>
                     <div className="flex text-sm gap-x-1 items-center">
-                        <div className="flex items-center gap-x-2">
+                        <div className="flex items-center gap-x-2 text-black">
                             <Image src={Location} className="h-5 w-5" alt="location" />
                             <h2>Store Locator</h2>
                         </div>
                         <div className="h-4 bg-gray-300 w-[1px] mx-2" />
-                        <div className="flex items-center gap-x-1">
+                        <div className="flex items-center gap-x-1 text-black">
                             <Image src={Truck} className="h-5 w-5" alt="location" />
                             <h2>Track Your Order</h2>
                         </div>
                         <div className="h-4 bg-gray-300 w-[1px] mx-2" />
-                        <div className="flex items-center gap-x-1">
+                        <div className="flex items-center gap-x-1 text-black">
                             <Image src={Bag} className="h-5 w-5" alt="location" />
                             <h2>Shop</h2>
                         </div>
                         <div className="h-4 bg-gray-300 w-[1px] mx-2" />
-                        <div className="flex items-center gap-x-1">
+                        <div className="flex items-center gap-x-1 text-black">
                             <Image src={User} className="h-5 w-5" alt="location" />
                             <h2>My Account</h2>
                         </div>

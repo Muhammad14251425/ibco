@@ -282,7 +282,7 @@ const Hero = () => {
 
 
         <div>
-            <div className="h-[12vh] hidden thh:block ">
+            <div className="h-[12vh] hidden thh:block bg-white ">
                 <div className="thh:max-w-6xl xl:max-w-7xl thh:mx-auto thh:flex thh:justify-between thh:items-center mt-6 ">
                     <Image src={Logo} alt="Logo" className="h-10 w-28" />
                     <div className="flex items-center gap-x-6  ">
@@ -293,7 +293,7 @@ const Hero = () => {
 
 
                                 <div className="flex">
-                                    <input type="text" className="border-[#FED700] outline-none max-h-12 border-y-2 border-l-2 px-4 py-2 rounded-l-full text-sm" placeholder="Search for Products" />
+                                    <input type="text" className="border-[#FED700] bg-white outline-none max-h-12 border-y-2 border-l-2 px-4 py-2 rounded-l-full text-sm" placeholder="Search for Products" />
                                     <DropdownMenuTrigger className="flex gap-x-12 outline-none border-[#FED700] border-y-2 relative pr-2 rounded-none py-2 max-h-12">
                                         <h2 className="mr-20 text-sm text-gray-400 font-normal">Accessories</h2>
                                         <ChevronDown />

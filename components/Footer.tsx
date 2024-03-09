@@ -115,8 +115,8 @@ const Footer = () => {
                                 <div className="flex gap-x-5 items-center md:mt-2">
                                     <Image src={Headphones} alt="headphones" className="h-14 w-12" />
                                     <div>
-                                        <h5 className="text-xs text-gray-500 my-2">Got Questions ? Call us 24/7!</h5>
-                                        <div className="flex flex-col thh:flex-row gap-y-2 gap-x-1">
+                                        <h5 className="text-xs text-gray-500 my-2 ">Got Questions ? Call us 24/7!</h5>
+                                        <div className="flex flex-col thh:flex-row gap-y-2 gap-x-1 text-black">
                                             <h2 className="font-bold">(800) 8001-8588,</h2>
                                             <h2 className="font-bold"> (0600) 874 548</h2>
                                         </div>
@@ -126,8 +126,8 @@ const Footer = () => {
 
                             <div className="space-y-3 ">
                                 <div>
-                                    <h2 className="text-sm font-bold ">Contact Info</h2>
-                                    <h3 className="lg:text-sm md:text-xs md:mt-2">17 Princess Road, London, Greater London NW1 8JR, UK</h3>
+                                    <h2 className="text-sm font-bold text-black ">Contact Info</h2>
+                                    <h3 className="lg:text-sm md:text-xs md:mt-2 text-black">17 Princess Road, London, Greater London NW1 8JR, UK</h3>
                                 </div>
                                 <div className="flex gap-x-5 ">
                                     <IoLogoFacebook className="h-6 w-6 text-gray-600" />
@@ -143,7 +143,7 @@ const Footer = () => {
                         <div className="col-span-7">
                             <div className="fss:grid fss:grid-cols-3 md:gap-x-4 fss:h-[28vh]">
                                 <div className="fss:flex fss:flex-col fss:justify-between">
-                                    <h2 className="font-bold text-sm">Find It Fast</h2>
+                                    <h2 className="font-bold text-sm text-black">Find It Fast</h2>
                                     <div className="text-sm space-y-1 text-gray-600">
                                         <h3>Laptops & Computers</h3>
                                         <h3>Cameras & Photography</h3>
@@ -167,7 +167,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className="fss:flex fss:flex-col fss:justify-between">
-                                    <h2 className="font-bold  text-sm">Customer Care</h2>
+                                    <h2 className="font-bold text-black text-sm">Customer Care</h2>
                                     <div className="text-sm space-y-1 text-gray-600">
                                         <h3>My Account</h3>
                                         <h3>Track your Order</h3>
