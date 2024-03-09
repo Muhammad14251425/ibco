@@ -304,7 +304,7 @@ const Hero = () => {
                                 </div>
 
                                 <DropdownMenuContent className="flex flex-col justify-center gap-y-[1px] bg-white font-normal pb-0 w-64 ">
-                                    <p className="  -mt-1 rounded-sm pl-1 hover:bg-blue-400  ">Shreadders</p>
+                                    <p className="  -mt-1 rounded-sm pl-1 hover:bg-blue-400 ">Shreadders</p>
                                     <p className="  -mt-1 rounded-sm pl-1 hover:bg-blue-400 ">Cutters</p>
                                     <p className="  -mt-1 rounded-sm pl-1 hover:bg-blue-400 ">Spirals</p>
                                     <p className="  -mt-1 rounded-sm pl-1 hover:bg-blue-400 ">lamination</p>
@@ -502,7 +502,7 @@ const Hero = () => {
                 <div className="max-w-xl mx-5 thh:max-w-[870px] 2xl:max-w-5xl xl:mr-0 thh:mx-1 xl:ml-2 csb:mx-auto thh:col-span-2 2xl:col-span-3" >
                     <div className="" >
                         <Tabs defaultValue="featured" className="[400px] mt-4  ">
-                            <TabsList className="flex justify-center psc:gap-x-8 md:gap-x-1 thh:gap-x-7 xl:gap-x-16 2xl: mx-1 scs:mx-auto">
+                            <TabsList className="flex justify-center psc:gap-x-8 md:gap-x-1 thh:gap-x-7 xl:gap-x-16 2xl: mx-1 scs:mx-auto border-2">
                                 <TabsTrigger className="px-6 thh:px-20 2xl:px-24" value="featured">Featured</TabsTrigger>
                                 <TabsTrigger className="px-6 thh:px-20 2xl:px-24" value="onsale">On Sale</TabsTrigger>
                                 <TabsTrigger className="px-6 thh:px-20 2xl:px-24" value="toprated">Top Rated</TabsTrigger>

@@ -56,7 +56,7 @@ const data = [
 ]
 const Footer = () => {
     return (
-        <div>
+        <div className="bg-white">
             <div className="fss:hidden">
                 <div className='bg-gray-100 px-4 py-4 pb-4'>
                     <Accordion type="single" collapsible className="space-y-3 max-w-lg md:max-w-[950px] md:mx-7 mx-auto">
